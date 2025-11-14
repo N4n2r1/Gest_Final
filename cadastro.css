@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alkatra", system-ui;
+}
+
+div {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    width: 50%;
+    border: 2px solid rgb(247, 173, 247);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(237, 178, 237);
+    border-radius: 5px;
+}
+
+body {
+    background-image: url("https://plus.unsplash.com/premium_photo-1671482215421-a5c73371ae20?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHVycGxlJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.acess {
+    background-color: white;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    border: 2px solid rgb(191, 104, 191);
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: rgb(230, 169, 230);
+}
+
+label {
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(66, 0, 66);
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(236, 176, 236);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pago{
+  text-align: center;
+  font-size: small;
+}
+
+.pago a{
+  color: #3b0068;
+}
+
+.pago a:hover{
+  color: #3b0068;
+  text-decoration: wavy;
+}

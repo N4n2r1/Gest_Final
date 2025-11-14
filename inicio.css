@@ -1,0 +1,119 @@
+:root {
+  --rosa-claro: #f8c8e8;
+  --rosa-fundo: #fff5fc;
+  --rosa-destaque: #b30054;
+  --texto: #333;
+  --fundo-card: #fcedf6;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--rosa-fundo);
+  color: var(--texto);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--rosa-claro);
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #890042;
+  margin-bottom: 10px;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.navegacao a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--rosa-destaque);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navegacao a:hover {
+  color: #8b0448;
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.post {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.post img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.mensagem {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.reacoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reacoes button {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.reacoes button:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: var(--rosa-claro);
+  text-align: center;
+  padding: 15px;
+  color: #8d0364;
+  font-size: 0.9rem;
+  border-top: 1px solid #e2e2e2;
+}
+
+.pago{
+  text-align: center;
+}
+
+.pago a{
+  color: #3b0068;
+}
+
+.pago a:hover{
+  color: #3b0068;
+  text-decoration: wavy;
+}

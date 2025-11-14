@@ -1,0 +1,47 @@
+/* Isso é o que você já tinha (e está ótimo) */
+.botao-link-header {
+  background-color: #6a3b8c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.botao-link-header:hover {
+  background-color: #4b2c5e;
+}
+
+/* ADIÇÃO 1: 
+  Estilo da logo que tiramos do HTML.
+*/
+.logo img {
+  width: 60px; /* Ajustei de 15% para um valor fixo, que é mais seguro */
+  margin-right: 15px;
+  /* Se você REALMENTE quiser 15% da LARGURA DA LOGO (e não do header),
+     você teria que ajustar o container .logo, mas 60px parece ser
+     o que você queria, baseado no seu index.css original. */
+}
+
+/* ADIÇÃO 2: 
+  Estilos para os botões do carrossel parecerem melhores.
+*/
+.carrossel button {
+  background-color: #f1e4f8; /* Um roxo bem claro */
+  border: 1px solid #d8b4e2; /* Borda suave */
+  color: #4b2c5e; /* Cor do texto roxa */
+  border-radius: 50%; /* Deixa redondo */
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.carrossel button:hover {
+  background-color: #d8b4e2; /* Escurece no hover */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/cadastro.css">
+</head>
+<body>
+    <div class="acess">
+        <h1>Realize seu cadastro</h1>
+        <input type="text" id="nome" placeholder="Nome">
+        <br><br>
+        <input type="email" id="email" placeholder="E-mail">
+        <br><br>
+        <input type="password" id="password" placeholder="Senha">
+        <br><br>
+        <input type="password" id="confirmarpassword" placeholder="Confirmar senha">
+        <br><br>
+        <input type="checkbox" onclick="toogglesenha()" id="exibirsenha"> Exibir senha
+        <br><br><br>
+        <button onclick="cadastrarusuario()">Cadastrar-se</button>
+        <input type="checkbox" id="exibirsenha"> Exibir senha
+        <br><br><br>
+        <button id="btn-cadastro">Cadastrar-se</button>
+
+        <button onclick="cadastrarusuario()">Cadastrar-se</button>
+        <br><br>
+        <a href="inscricao.html">Voltar para login</a>
+        <br><br>
+
+    <section class="pago">
+      <h3>Quer escolher um pacote pago com diversas ferramentas plus? Clique aqui!</h3>
+      <a href="pago.html">Quero comprar o pacote pago</a>
+    </section>
+
+    </div>
+    <br><br><br>
+</body>
+<script src="/assets/js/cadastro.js"></script>
+</html>

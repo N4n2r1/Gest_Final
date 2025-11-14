@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/calendario.css">
+
+<body>
+
+     <header>
+    <h1>Agenda das mamães</h1>
+    <nav class="navegacao">
+      <a href="calendario.html">📅 Calendário</a>
+      <a href="inicio.html">📝 Blog</a>
+      <a href="doulas.html">🤱 Doulas</a>
+    </nav>
+  </header>
+
+    <br>
+
+    <h2>Título do compromisso</h2>
+
+    <input type="text" id="compromisso"> 
+
+    <div>
+        <h2>Data inicial e final</h2>
+        <input type="date" id="data_inicio">
+        <input type="date" id="data_fim">
+    </div>
+
+    <div>
+        <h2>Horário incial e final</h2>
+        <input type="time" id="hora_inicio">
+        <input type="time" id="hora_fim">
+    </div>
+
+    <br><br>
+
+    <button onclick="adicionarcompromisso()">Salvar Evento</button>
+
+    <br><br>
+
+    <a href="agenda.html" class="link-agenda">Ver agenda</a>
+</body>
+<script src="../js/calendario.js"></script>
+</html>
